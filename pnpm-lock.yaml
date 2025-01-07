@@ -86,7 +86,7 @@ importers:
         version: 0.0.2
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.2
-        version: 3.7.2(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0))
+        version: 3.7.2(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1))
       adm-zip:
         specifier: 0.5.16
         version: 0.5.16
@@ -106,8 +106,8 @@ importers:
         specifier: ^3.4.2
         version: 3.4.2
       sass:
-        specifier: ^1.83.0
-        version: 1.83.0
+        specifier: ^1.83.1
+        version: 1.83.1
       stylelint:
         specifier: ^16.12.0
         version: 16.12.0(typescript@5.6.3)
@@ -119,10 +119,10 @@ importers:
         version: 6.10.0(stylelint@16.12.0(typescript@5.6.3))
       vite:
         specifier: 6.0.6
-        version: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0)
+        version: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1)
       vite-plugin-progress:
         specifier: ^0.0.7
-        version: 0.0.7(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0))
+        version: 0.0.7(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1))
 
 packages:
 
@@ -3101,8 +3101,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.83.0:
-    resolution: {integrity: sha512-qsSxlayzoOjdvXMVLkzF84DJFc2HZEL/rFyGIKbbilYtAvlCxyuzUeff9LawTn4btVnLKg75Z8MMr1lxU1lfGw==}
+  sass@1.83.1:
+    resolution: {integrity: sha512-EVJbDaEs4Rr3F0glJzFSOvtg2/oy2V/YrGFPqPY24UqcLDWcI9ZY5sN+qyO3c/QCZwzgfirvhXvINiJCE/OLcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5152,10 +5152,10 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1))':
     dependencies:
       '@swc/core': 1.7.35
-      vite: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0)
+      vite: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -6838,7 +6838,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  sass@1.83.0:
+  sass@1.83.1:
     dependencies:
       chokidar: 4.0.1
       immutable: 5.0.2
@@ -7188,14 +7188,14 @@ snapshots:
     dependencies:
       base64-arraybuffer: 1.0.2
 
-  vite-plugin-progress@0.0.7(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0)):
+  vite-plugin-progress@0.0.7(vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1)):
     dependencies:
       picocolors: 1.1.0
       progress: 2.0.3
       rd: 2.0.1
-      vite: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0)
+      vite: 6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1)
 
-  vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.0):
+  vite@6.0.6(@types/node@22.7.5)(jiti@2.4.2)(sass@1.83.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
@@ -7204,7 +7204,7 @@ snapshots:
       '@types/node': 22.7.5
       fsevents: 2.3.3
       jiti: 2.4.2
-      sass: 1.83.0
+      sass: 1.83.1
 
   warning@4.0.3:
     dependencies:
