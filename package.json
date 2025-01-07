@@ -18,7 +18,7 @@
     "@fontsource/lexend-deca": "5.0.14",
     "@fontsource/montserrat": "5.0.19",
     "@muetab/react-sortable-hoc": "^2.0.1",
-    "@mui/material": "6.3.0",
+    "@mui/material": "6.3.1",
     "@sentry/react": "^8.47.0",
     "embla-carousel-autoplay": "8.5.1",
     "embla-carousel-react": "8.5.1",
